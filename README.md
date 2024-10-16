@@ -8,10 +8,6 @@ License:    Creative Commons: Attribution, Share-Alike
 
 Lab Requirements: Access to the internet, a web browser.  Author written tools available at http://zak.freeshell.org/course/lab.html
 
-Recommended Class Duration: 1 day
-
-Creator Available to Teach In-Person Classes: Yes
-
 Author Comments:
 
 This course looks at web users from a few different perspectives.  First, we look at identifying techniques to determine web user identities from a server perspective.  Second, we will look at obfuscating techniques from a user whom seeks to be anonymous.  Finally, we look at forensic techniques, which, when given a hard drive or similar media, we identify users who accessed that server. 
