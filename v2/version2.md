@@ -1,13 +1,16 @@
-# Using ssh port forwarding
+# Oﬀensive & Defensive & Techniques for Determining Web User Identity
 ## Zachary Zebrowski
 ## zakz@zakz.info
-License: Creative Commons Share Alike 
-Presentation will be added to https://github.com/japharl/web-identity/
-Made with mdp.
-Presentation pdf provided by md2pdf.
+## Approved for Public Release: 12-3046.
+## Distribution Unlimited
 
 ---
-# Title 2
+# All materials are licensed under a Creative Commons "Share Alike" license
+## See https://creativecommons.org/licenses/by-sa/4.0/
 
-iasdf
+---
+# Welcome
+## I'm Zak Zebrowski.
+## I'm a Forensic Database Engineer / "Data Miner" / and Perl guy.
 
+--- 
