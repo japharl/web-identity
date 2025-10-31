@@ -3,7 +3,7 @@
 ## zakz@zakz.info
 License: Creative Commons Share Alike 
 Presentation will be added to https://github.com/japharl/web-identity/
-Made with mdp.
+Made with mdp.  PDF made with md2pdf.
 
 
 ---
