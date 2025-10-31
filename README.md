@@ -18,7 +18,7 @@ Videos:
 
 Revision History:
 
-10-31-2025 - making room for v2.
+10-31-2025 - making room for v2.  V2 will have updated links, and author provided tools, as well as native support for mdp / md2pdf.
 
 07-19-2025 - added port forwarding presentation.  Uses mdp ( https://github.com/visit1985/mdp )
 
