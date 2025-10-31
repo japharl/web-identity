@@ -1,4 +1,4 @@
-# Oﬀensive & Defensive & Techniques for Determining Web User Identity
+# Offensive and Defensive Techniques for Determining Web User Identity
 ## Zachary Zebrowski
 ## zakz@zakz.info
 ## Approved for Public Release: 12-3046.
