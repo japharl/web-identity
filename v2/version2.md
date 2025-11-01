@@ -14,3 +14,17 @@
 ## I'm a Forensic Database Engineer / "Data Miner" / and Perl guy.
 
 --- 
+# Outline
+## Characteristics of internet connections
+## Ways of determining web user identity
+## Preventing a web user identity from being deterinminable from an end user's perspective
+## Finish
+
+---
+# Why Bother
+## To determine who visits your website.
+### Validate you are connecting from a known location versus an unexpected country.
+## To hide your identity on the internet
+## Note: Evertyhing in this presentation is old. New technologies and techniques evolve over time which may be more (or less) intrusive.
+
+---
