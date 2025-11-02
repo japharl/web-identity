@@ -38,8 +38,8 @@
 * What devices connect to the internet?
 * When you connect to the ineternet.
 * How you connect to the internet.
-## Why bother
-* You can't escape these characteristics regardless of what you do.
+* Why bother
+** You can't escape these characteristics regardless of what you do.
 
 ---
 # What devices connect to the internet?
