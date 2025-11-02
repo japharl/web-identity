@@ -10,8 +10,8 @@
 
 ---
 # Welcome
-## I'm Zak Zebrowski.
-## I'm a Forensic Database Engineer / "Data Miner" / and Perl guy.
+* I'm Zak Zebrowski.
+* I'm a Forensic Database Engineer / "Data Miner" / and Perl guy.
 
 --- 
 # Outline
@@ -28,3 +28,4 @@
 ## Note: Evertyhing in this presentation is old. New technologies and techniques evolve over time which may be more (or less) intrusive.
 
 ---
+# Slide 7
