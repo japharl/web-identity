@@ -95,3 +95,6 @@
 
 ---
 # Lab 1
+* Browse to https://location.zakz.info and click on the Lab 1 link.
+* Note that without any additional permissions, the server can (reasonably) guess what country you are located in.
+* The data that is being used on the backend is from iptoasn.com .
