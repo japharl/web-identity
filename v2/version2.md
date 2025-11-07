@@ -111,12 +111,12 @@
 ---
 # What is exposed by scripting
 * Javascript (and other scripting languages) can provide insites into your behavior.  
-* Look at whatwebcando.today website.  It shows you many apis that your web browser can use to interact with your environment.  
+* Look at https://whatwebcando.today website.  It shows you many apis that your web browser can use to interact with your environment.  
 * Some of the interesting apis: Audio & video capture, Geolocation, Device motion, Netowork Speed, Online State, Batery Status, Touch Gestures, clipboard, etc.
 
 ---
 # Lab 2 
-* Browse to whatwebcando.today/geolocation.html website.
+* Browse to https://whatwebcando.today/geolocation.html website.
 * Click on the "ask for location" button under Live Demo.
 * Click allow location when prompted.  (By default, websites must ask).
 * Click on the coordinates that were fetched by the api.
