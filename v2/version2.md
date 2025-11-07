@@ -1,12 +1,12 @@
 # Offensive and Defensive Techniques for Determining Web User Identity
-## Zachary Zebrowski
-## zakz@zakz.info
-## Approved for Public Release: 12-3046.
-## Distribution Unlimited
+* Zachary Zebrowski
+* zakz@zakz.info
+* Approved for Public Release: 12-3046.
+* Distribution Unlimited
 
 ---
 # All materials are licensed under a Creative Commons "Share Alike" license
-## See https://creativecommons.org/licenses/by-sa/4.0/
+* See https://creativecommons.org/licenses/by-sa/4.0/
 
 ---
 # Welcome
@@ -96,5 +96,8 @@
 ---
 # Lab 1
 * Browse to https://location.zakz.info and click on the Lab 1 link.
-* Note that without any additional permissions, the server can (reasonably) guess what country you are located in.
-* The data that is being used on the backend is from iptoasn.com .
+* Expand the summary tab Server Information to see all of the server information that is collected upon each request.  Some of the information is the server environment proper, such as what web server is running, etc. See if you can find other identifiying information.
+* Note that without any additional permissions, the server can (reasonably) guess what country you are located in.  The server can also identify (reasonbly) the network connection (company) that you are using, as well as to if you are or are not using tor.
+
+---
+
