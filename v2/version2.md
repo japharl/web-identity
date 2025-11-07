@@ -91,7 +91,10 @@
 
 ---
 # IPv6
-* IPv6 addresses are used in various countries, and may not be readily resolvable depending upon how ip addresses are resolved.
+* IPv6 addresses are used in various countries, and it use is being increased over time.
+* At the ISP level, ipv6 is used a lot to help with internal networking.
+* Some consumer level ipv6 connections exist.  It depends upon the provider.
+* IPv6 can be translated to IPv4 communication, through transparent proxies, sometimes at the OS level or at the ISP level.
 
 ---
 # Lab 1
@@ -100,4 +103,57 @@
 * Note that without any additional permissions, the server can (reasonably) guess what country you are located in.  The server can also identify (reasonbly) the network connection (company) that you are using, as well as to if you are or are not using tor.
 
 ---
+# What your browser exposes
+* By default, your browser exposes your IP address or your proxied IP address to the remote server.  In lab 1, you can open the server environment information tab to see the REMOTE_ADDR field containing that IP Address.  
+* It also exposes your User Agent (which is what web browser you use).  Because of privacy concerns, the user agent string is becoming more static over time, to reduce tracking opportunities via the string.
+* It also exposes cookies that the web site you are visiting has sent in the past, (which may contain session information or other information to get you quickly back into your account).  Cookies are a key value pair that a returned by the browser to the server with every request to that domain.  Cookies can be used across domains to track you over a longer period of time.
 
+---
+# What is exposed by scripting
+* Javascript (and other scripting languages) can provide insites into your behavior.  
+* Look at whatwebcando.today website.  It shows you many apis that your web browser can use to interact with your environment.  
+* Some of the interesting apis: Audio & video capture, Geolocation, Device motion, Netowork Speed, Online State, Batery Status, Touch Gestures, clipboard, etc.
+
+---
+# Lab 2 
+* Browse to whatwebcando.today/geolocation.html website.
+* Click on the "ask for location" button under Live Demo.
+* Click allow location when prompted.  (By default, websites must ask).
+* Click on the coordinates that were fetched by the api.
+* See how physically close the location that is returned to your own location.
+
+---
+# Lab 3
+* Browse to whatwebcando.today/battery-status.html
+* Note that you do not have to click anywhere additionally to see live demo information about you.
+* See the live demo, particuarlly on a cell phone.
+* At one point, Uber was accused of increasing ride prices for individuals based upon this information, however, that was incorrect.  See a news report here : https://preview.tinyurl.com/bdvvuzr6 , that talks about this in detail.
+---
+# Lab 4
+* Browse to https://panopticlick.eff.org and run a test.
+* The test will take a minute or so to run.
+* When results are available, scroll down to Fingerprint Metrics.
+* Note the first line is System Fonts. As you read through this, ask yourself if your company has a company font installed on it's browser.  If it does, it could potentially identify your visit from your company, regardless of other obfuscation techniques your company may employ to avoid having the public know that a person from your company is interested in it.
+---
+# Lab 5
+* Browse to https://preview.tinyurl.com/3yqbptk .  This will redirect you to a tech dirt article, written in 2010, about a technique that used to work.  A script was installed on youporn website, which allowed the website to determine what other websites your browser visited.  It used the default color of a href link that is visited or unvisited, to determine if you went to a competiors website.
+* While the technique no longer works, it's worth noting that companies are interested in what sites you have visited before.  It would be likely that there are additional techniques people are working on to create this history for you.
+
+---
+# Lab 6
+* Browse to https://dugwood.com/clickheat/
+* This is a javascript application that allows a web site owner, to see where visitors are clicking on their website, in a heat map fashion.
+* This is another technique that one could use to potentially identify you.
+
+---
+# Lab 7
+* Browse to https://github.com/samyk/evercookie/
+* Evercookie is a javascript library that provides persisten cookies in a browser, using multiple techniques, that may be hard for the user to control.  Clearing cookies is not enough to get rid of evercookie.
+* The current version is sort of frozen in place, but some of the techniques still work.  Additional techniques are being developed.  Look at the issues and pull requests to see ideas / issues with current evercookie library.
+
+---
+# External connections
+* It's possible to embed multiple connection types (http, ftp, smb, etc) through a web browser.  By using obscure protocols, they may "break out" of your protected web browser session.  
+* See https://preview.tinyurl.com/brcg6ca - a defcon 17 presentation called Attacking Tor by Gregory Fleischer that has additional details on how to escape from a web browser (including tor).  While dated (8 years old at the time of writing), it's a little dated at this point, however, the principles do not change.
+
+---
