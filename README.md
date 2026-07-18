@@ -13,7 +13,8 @@ Summary:
 This course looks at web users from a few different perspectives.  First, we look at identifying techniques to determine web user identities from a server perspective.  Second, we will look at obfuscating techniques from a user whom seeks to be anonymous.  Forensic techniques have been removed in favor of Zak's other course, foresnic database analysis.
 
 Version 1 was the originally released version, which has pre-recorded material.
-Version 2 is a currently being written presentation, with mdp.  mdp is a markdown presentation which is a linux application.  Alternatively, look at the pdf presentation of the same content.
+
+Version 2 is a version being written with updated sources that currently work.  The presentation uses mdp.  mdp is a markdown presentation which is a linux application.  Run mdp slides.md to view the presentation.  Alternatively, look at the pdf presentation of the same content.
 
 Videos:
 
@@ -21,7 +22,7 @@ Videos:
 
 Revision History:
 
-10-31-2025 - making room for v2.  V2 will have updated links, and author provided tools, as well as native support for mdp / md2pdf.
+10-31-2025 - v2 is a version being updated with recent labels.
 
 07-19-2025 - added port forwarding presentation.  Uses mdp ( https://github.com/visit1985/mdp )
 
