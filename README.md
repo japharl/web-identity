@@ -1,5 +1,3 @@
-# web-identity
-
 Creator:     Zachary Zebrowski
 
 License:    Creative Commons: Attribution, Share-Alike
@@ -15,6 +13,8 @@ This course looks at web users from a few different perspectives.  First, we loo
 Version 1 was the originally released version, which has pre-recorded material.
 
 Version 2 is a version being written with updated sources that currently work.  The presentation uses mdp.  mdp is a markdown presentation which is a linux application.  Run mdp slides.md to view the presentation.  Alternatively, look at the pdf presentation of the same content.
+
+Port forwarding presentation is a light version of the above content with additonal added content.
 
 Videos:
 
