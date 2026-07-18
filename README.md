@@ -20,6 +20,10 @@ Videos:
 
 * https://www.youtube.com/playlist?list=PLUFkSN0XLZ-mWD8E-08bQNRRzK6bT12Fi (3 hours, 42 minutes).
 
+Copyright (c) 2012–2026 Zachary Zebrowski
+
+   This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+
 Revision History:
 
 10-31-2025 - v2 is a version being updated with recent labels.
