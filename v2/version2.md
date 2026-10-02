@@ -99,8 +99,8 @@
 ---
 # Lab 1
 * Browse to https://location.zakz.info 
-* Expand the summary tab Server Information to see all of the server information that is collected upon each request.  Some of the information is the server environment proper, such as what web server is running, etc. See if you can find other identifiying information.
 * Note that without any additional permissions, the server can (reasonably) guess what country you are located in.  The server can also identify (reasonbly) the network connection (company) that you are using, as well as to if you are or are not using tor.
+* Note the server information that is collected upon each request, and see how that identifies you.
 
 ---
 # What your browser exposes
