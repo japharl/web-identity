@@ -56,11 +56,6 @@
 * Also, different regional differences (such as hurricanes, where infrastructure is not reliable) could redesign the average connection to the internet.  
 
 ---
-# Other identifying techniques
-* IP Geolcation
-* What your browser exposes when you connect to the internet
-
----
 # IP Geolocation
 * IP Geolocation is the name for the technology to go from an IP Address to a physical location.  Companies, open source projects, provide this information in various formats to download and use within your applications (internal or external).  Further companies can provide API's as well to various websites through techniques.
 * Note that companies often provide additional attributes as well as IP geolocation, such as domain name, isp, org, and other calculated attributes.  These are a by-product of the analysis they perform to refine calculations.
@@ -163,14 +158,7 @@
 * https://preview.tinyurl.com/32c9frf # a Wall Street Journal article on this topic.
 
 ---
-# Part 2
-
-* How to obfuscate where you are coming from
-* How to protect against browsers exposures
-* Caveats
-
----
-# Obfuscation techniques
+# Next up - Obfuscation Topics
 
 * Simple obfuscation
 * Cloud services
@@ -180,5 +168,11 @@
   - Others
 * Web Browser Privacy Modes
 * Email / communications
+
+---
+# Simple: Borrowing a neighbors connection
+* Use a neighbors connection.  Easyish to do.  if a neighbors network is open, you can connect to that and use it.  You can potentially use "long range" techniques, such as those listed at: https://en.wikipedia.org/wiki/Long-range_Wi-Fi .
+* There are legal caveats with that technique, it's generally not permitted / recommended.
+* 
 
 
