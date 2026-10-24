@@ -9,7 +9,7 @@
 * See https://creativecommons.org/licenses/by-sa/4.0/
 
 ---
-# Welcome
+# Welcomehttps://preview.tinyurl.com/32c9frf
 * I'm Zak Zebrowski.
 * I'm a Forensic Database Engineer / "Data Miner" / and Perl guy.
 
@@ -158,3 +158,27 @@
 * See https://preview.tinyurl.com/brcg6ca - a defcon 17 presentation called Attacking Tor by Gregory Fleischer that has additional details on how to escape from a web browser (including tor).  While dated (8 years old at the time of writing), it's a little dated at this point, however, the principles do not change.
 
 ---
+# Why bother?
+* This is common, as advertizers (and others) want to profile you, and this identification is valuable to them.
+* https://preview.tinyurl.com/32c9frf # a Wall Street Journal article on this topic.
+
+---
+# Part 2
+
+* How to obfuscate where you are coming from
+* How to protect against browsers exposures
+* Caveats
+
+---
+# Obfuscation techniques
+
+* Simple obfuscation
+* Cloud services
+* VPN Providers
+* Anonymizers
+  - Tor
+  - Others
+* Web Browser Privacy Modes
+* Email / communications
+
+
