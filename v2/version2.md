@@ -101,7 +101,7 @@
 * Browse to https://location.zakz.info 
 * Note that without any additional permissions, the server can (reasonably) guess what country you are located in.  The server can also identify (reasonbly) the network connection (company) that you are using, as well as to if you are or are not using tor.
 * Note the server information that is collected upon each request, and see how that identifies you.
-* Use your ai client, and ask it to setup an mcp server, using the url https://mcp.location.zakz.info .  Then ask it, ask MCP location, to find the location.  It will return the same information as location.zakz.info lab, but from the perspective of an ai client.  Try changing clients and see if it reports a different value.
+* Use your ai client, and ask it to setup an mcp server, using the url https://mcp.location.zakz.info/mcp .  Then ask it, ask MCP location, to find the location.  It will return the same information as location.zakz.info lab, but from the perspective of an ai client.  Try changing clients and see if it reports a different value.
 
 ---
 # What your browser exposes
