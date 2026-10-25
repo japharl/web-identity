@@ -9,16 +9,9 @@
 * See https://creativecommons.org/licenses/by-sa/4.0/
 
 ---
-# Welcomehttps://preview.tinyurl.com/32c9frf
+# Welcome
 * I'm Zak Zebrowski.
-* I'm a Forensic Database Engineer / "Data Miner" / and Perl guy.
-
---- 
-# Outline
-* Characteristics of internet connections
-* Ways of determining web user identity
-* Preventing a web user identity from being deterinminable from an end user's perspective
-* Finish
+* I'm a Forensic Database Engineer / "Data Miner" / ai applications / and Perl guy.
 
 ---
 # Ethics
@@ -31,7 +24,7 @@
 * To determine who visits your website.
 * Validate you are connecting from a known location versus an unexpected country.
 * To hide your identity on the internet
-* Note: Evertyhing in this presentation is old. New technologies and techniques evolve over time which may be more (or less) intrusive.
+* Note: Evertyhing in this presentation is old.  New technologies and techniques evolve over time which may be more (or less) intrusive.  While all links in this presentation have been validated, over time, they may need to be checked on archive.org or similar.
 
 ---
 # Characteristics of Internet Connections
