@@ -46,22 +46,26 @@ END
 print "$str \n";
 print "Remote IP: $ENV{'REMOTE_ADDR'}<BR>";
 # Process geoip
-my $reader = MaxMind::DB::Reader->new( file =>'/var/local/ipgeo-community/ipgeo-community.mmdb');
-my $ip = $ENV{'REMOTE_ADDR'};
-my $record = $reader->record_for_address($ip);
-my $cc = $record->{'country_code'};
-my $timezone = $record->{'timezone'};
-my $as_org = $record->{'as_org'};
-my $is_datacenter = $record->{'is_datacenter'};
+if (-e "/var/local/ipgeo-community/ipgeo-community.mmdb"){
+  my $reader = MaxMind::DB::Reader->new( file =>'/var/local/ipgeo-community/ipgeo-community.mmdb');
+  my $ip = $ENV{'REMOTE_ADDR'};
+  my $record = $reader->record_for_address($ip);
+  my $cc = $record->{'country_code'};
+  my $timezone = $record->{'timezone'};
+  my $as_org = $record->{'as_org'};
+  my $is_datacenter = $record->{'is_datacenter'};
 
-if ($cc eq ''){
-  print "Local network.<BR>";
-} else {
-  print "Country: $cc<BR>Network: $as_org<BR>";
-  print "Timezone: $timezone<BR>";
-  if (length($is_datacenter)){
-    print "Data Center: Yes <BR>";
+  if ($cc eq ''){
+    print "Local network.<BR>";
+  } else {
+    print "Country: $cc<BR>Network: $as_org<BR>";
+    print "Timezone: $timezone<BR>";
+    if (length($is_datacenter)){
+      print "Data Center: Yes <BR>";
+    }
   }
+} else {
+  print "Please download ipgeo-community.mmdb and put it in /var/local/ipgeo-community.mmdb.<BR>";
 }
 print "<BR><BR>Server information:";
 print "<TABLE>";
