@@ -54,10 +54,14 @@ my $timezone = $record->{'timezone'};
 my $as_org = $record->{'as_org'};
 my $is_datacenter = $record->{'is_datacenter'};
 
-print "Country: $cc<BR>Network: $as_org<BR>";
-print "Timezone: $timezone<BR>";
-if (length($is_datacenter)){
-  print "Data Center: Yes <BR>";
+if ($cc eq ''){
+  print "Local network.<BR>";
+} else {
+  print "Country: $cc<BR>Network: $as_org<BR>";
+  print "Timezone: $timezone<BR>";
+  if (length($is_datacenter)){
+    print "Data Center: Yes <BR>";
+  }
 }
 print "<BR><BR>Server information:";
 print "<TABLE>";
