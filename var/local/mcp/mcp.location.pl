@@ -3,8 +3,6 @@ use MCP::Server;
 use MaxMind::DB::Reader;
 use Mojo::JSON;
 
-app->secrets('asdfafasdfasdfasdfafdasfdsafasdfasdfa');
-
 
 # 1. Register the ClientIP plugin
 plugin 'ClientIP';
