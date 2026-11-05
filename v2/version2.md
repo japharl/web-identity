@@ -53,6 +53,7 @@
 * IP Geolocation is the name for the technology to go from an IP Address to a physical location.  Companies, open source projects, provide this information in various formats to download and use within your applications (internal or external).  Further companies can provide API's as well to various websites through techniques.
 * Note that companies often provide additional attributes as well as IP geolocation, such as domain name, isp, org, and other calculated attributes.  These are a by-product of the analysis they perform to refine calculations.
 * As location information is valuable, other projects attempt to refine location as well, through bluetooth or wifi devices, cell phone coverage, or other attributes and then allows the browser to perform an approximate location lookup based upon the devices found and their known locations.  See https://beacondb.net as an example data source.  Appllications (such as firefox, or geoclue), can make requests to this api for an approximate location response.
+* See https://ipgeo.zakz.info for an example application that allows you to look up an ip address (ipv4 / ipv6).  
 
 ---
 # What are unique features about IP Geolocation Databases
